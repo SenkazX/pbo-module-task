@@ -162,33 +162,24 @@ namespace PBO_Task
         {
             Perusahaan perusahaan = new Perusahaan();
 
-            Manager m = new Manager("Zaidan", 5000000, 2000000);
-            Staff s = new Staff("Abdi", 3000000, 1000000);
-            Magang mg = new Magang("Andhika", 1000000, 6);
-            Freelancer f = new Freelancer("Salim", 2000000, 3);
-
-            Staff s2 = new Staff("Alfin", 2800000, 900000);
-            Magang mg2 = new Magang("Ilham", 1200000, 4);
-            Freelancer f2 = new Freelancer("Suta", 2500000, 6);
-            Manager m2 = new Manager("Galen", 6000000, 2500000);
-            Staff s3 = new Staff("Alok", 2700000, 950000);
+            
+            Manager m = new Manager("Suta", 5000000, 2000000); 
+            Staff s = new Staff("Bima", 3000000, 1000000);
+            Magang mg = new Magang("Ikhsan", 1000000, 6);
+            Freelancer f = new Freelancer("Revaldo", 2000000, 3);
 
             perusahaan.TambahKaryawan(m);
             perusahaan.TambahKaryawan(s);
             perusahaan.TambahKaryawan(mg);
             perusahaan.TambahKaryawan(f);
-            perusahaan.TambahKaryawan(s2);
-            perusahaan.TambahKaryawan(mg2);
-            perusahaan.TambahKaryawan(f2);
-            perusahaan.TambahKaryawan(m2);
-            perusahaan.TambahKaryawan(s3);
 
-            // Tampilkan semua data
+            
             perusahaan.DaftarKaryawan();
 
             Console.WriteLine("\n=== Polymorphism ===");
-            Karyawan k = new Staff("Ilham", 2500000, 800000);
-            k.Kerja(); // polymorphism
+            
+            Karyawan k = new Staff("Bima", 2500000, 800000);
+            k.Kerja(); 
 
             Console.WriteLine("\n=== Method Khusus ===");
             m.Memimpin();
@@ -202,21 +193,21 @@ namespace PBO_Task
 
         static void DemoSoal(Manager m, Staff s, Magang mg, Freelancer f)
         {
-            // Soal 1
+           
             m.Kerja();
             f.Kerja();
 
-            // Soal 2
+            
             m.Memimpin();
 
-            // Soal 3
+            
             m.InfoKaryawan();
 
-            // Soal 4
+           
             mg.Belajar();
 
-            // Soal 5
-            Karyawan k2 = new Staff("Alok", 2800000, 900000);
+            
+            Karyawan k2 = new Staff("Bima", 2800000, 900000);
             k2.Kerja();
         }
     }
