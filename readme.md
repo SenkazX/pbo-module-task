@@ -21,7 +21,7 @@
 ```
 
 <!-- PIXEL ART AVATAR via shields -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=13&duration=3000&pause=1000&color=FFD93D&center=true&vCenter=true&width=500&lines=SANTYA+TRISUTA+PAMURSITA;SISTEM+INFORMASI+%7C+UNEJ;LOADING+PLAYER+ONE...;INSERT+COIN+TO+START+%F0%9F%8E%AE" alt="Typing SVG" />
+<img src="a6b6a86644c36c56808317eb951732e3" alt="Typing SVG" />
 
 ---
 
