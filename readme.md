@@ -66,7 +66,7 @@
 
 <div align="center">
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=santya-trisuta&theme=github-dark-blue&hide_border=true&ring=FFD93D&fire=FF6B6B&currStreakLabel=6BCB77)](https://git.io/streak-stats)
+
 
 </div>
 
