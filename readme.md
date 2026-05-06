@@ -1,5 +1,4 @@
 
-
 <div align="center">
 
 <!-- PIXEL HEADER BANNER -->
@@ -74,7 +73,7 @@
 
 ---
 
-## 📡 `CONNECT.link`
+## 📡 `CONNECT`
 
 <div align="center">
 
@@ -104,9 +103,6 @@
 <div align="center">
 
 `▓▓▓` `░░░` `▓▓▓` `░░░` `▓▓▓` `░░░` `▓▓▓` `░░░` `▓▓▓` `░░░` `▓▓▓`
-
-
-
 *Made with ❤️ + ☕ by Santya Trisuta Pamursita*
 *Sistem Informasi — Universitas Jember*
 
